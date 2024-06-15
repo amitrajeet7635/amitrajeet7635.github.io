@@ -60,8 +60,8 @@ Feel free to use this website as a template for your own personal portfolio. Cus
 ## 🎨 Customization
 
 - **Update Profile Info**: Modify the content in `index.html` to reflect your own information.
-- **Change Styles**: Tweak the CSS in `styles/main.css` to personalize the look and feel.
-- **Enhance Functionality**: Add or modify JavaScript in `scripts/main.js` for custom functionality.
+- **Change Styles**: Tweak the CSS in `style.css` to personalize the look and feel.
+- **Enhance Functionality**: Add or modify JavaScript in `main.js` for custom functionality.
 
 ## 👤 About Me
 
