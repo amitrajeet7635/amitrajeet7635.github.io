@@ -3591,6 +3591,123 @@ footer {
  
 }
 
+@media only screen and (max-width:360px){
+  .hamburger{
+    width: 25px;
+    height: 25px;
+  }
+
+
+  .cross{
+    top: 70px;
+    right: 90px;
+    scale: 35%;
+  }
+
+  .stick{
+      height: 120px;
+  }
+
+  .me{
+    right: -130px;
+
+  }
+
+  .me-round{
+    right: -200px;
+  }
+  
+  .strap-1{
+    right: -75px;
+  }
+
+  .strap-2{
+    right: 180px;
+  }
+
+  .globe{
+    top: 200px;
+    
+  }
+
+  .patt-1{
+    left: -10px;
+  }
+
+  .about-content{
+    width: 300px;
+    top: 450px;
+    left: 50px;
+    font-size: 14px;
+  }
+
+  .download-cv{
+    top: 600px;
+    font-size: 15px;
+    left: 50px;
+    width: 120px;
+  }
+
+  .skill-title{
+    font-size: 70px;
+  }
+
+  .navigation button{
+    font-size: 15px;
+    left: -10px;
+  }
+
+  .skill-cont{
+    top: 125px;
+  }
+
+  .slider{
+    height: 250vh;
+    /* border: #fff solid; */
+  
+  }
+
+  #skills{
+    height: 270vh;
+    /* border: #fff solid; */
+  }
+
+  .project-title{
+    font-size: 50px;
+  }
+
+  .contact-main{
+    scale: 65%;
+    left: 0px;
+  }
+
+  .footer-content .footer-logo{
+    font-size: 18px;
+    left: 10px;
+    height: 40px;
+    display: flex;
+    justify-content: start;
+    /* border: #fff solid; */
+  }
+
+  .footer-content p{
+    top: 0px;
+    left: 0px;
+    justify-content: start;
+    /* border: white solid; */
+  }
+
+  .footer-content .footer-sm{
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 514px;
+    background-color: rgba(255, 255, 255, 0.45);
+    left: -77px;
+    /* border: #fff solid; */
+  }
+}
+
   
 }
 
