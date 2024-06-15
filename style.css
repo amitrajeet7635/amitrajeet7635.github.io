@@ -3655,6 +3655,7 @@ footer {
   .navigation button{
     font-size: 15px;
     left: -10px;
+    z-index: 1;
   }
 
   .skill-cont{
