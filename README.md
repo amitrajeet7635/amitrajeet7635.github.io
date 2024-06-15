@@ -70,7 +70,7 @@ Hello! I am Amitrajeet Konch, a passionate web developer. This website serves as
 ## 📫 Contact
 
 If you have any questions, feel free to reach out to me at:
-- **Email**: amitrajeetk@egmail.com
+- **Email**: amitrajeetk@gmail.com
 - **Twitter**: [@amitrajeet.eth](https://x.com/amitrajeet7635)
 
 
