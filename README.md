@@ -24,10 +24,8 @@ Check out the live version of my website [here](http:amitrajeetkonch.me).
 ```
 root
 ├── index.html
-├── styles/
-│   ├── main.css
-├── scripts/
-│   ├── main.js
+├── style.css
+├── main.js
 ├── images/
 │   ├── profile.jpg
 │   ├── project1.png
