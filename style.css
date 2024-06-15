@@ -3390,7 +3390,7 @@ footer {
 
   #skills{
     height: 290vh;
-    border: #fff solid;
+    /* border: #fff solid; */
   }
 
   .navigation button{
@@ -3404,7 +3404,7 @@ footer {
 
   #projects{
     height: 230vh;
-    border: #fff solid;
+    /* border: #fff solid; */
   }
 
   .contact-main{
@@ -3443,6 +3443,149 @@ footer {
     left: -85px;
     /* border: #fff solid; */
   }
+
+@media only screen and (max-width:350px){
+  #home{
+    height: 53vh;
+    /* border: #fff solid; */
+  }
+   .navbar{
+    height: 5rem;
+   }
+
+   .hamburger{
+    width: 25px;
+    height: 25px;
+   }
+
+   .navbar .my-name a{
+    font-size: 18px;
+   }
+
+   .me{
+    bottom: -115px;
+    right:-150px;
+    scale: 55%;
+    z-index: 1;
+   }
+
+   .me-round{
+    bottom: -150px;
+    right: -220px;
+    scale: 35%;
+   }
+
+    .strap-1{
+      bottom: -130px;
+      right: -70px;
+      rotate: 5deg;
+      scale: 35%;
+    }
+
+    .strap-2{
+      bottom: -140px;
+      right: 135px;
+      rotate: 0deg;
+      scale: 35%;
+    }
+
+    .globe{
+      top: 180px;
+      right: 0px;
+      scale: 35%;
+    }
+
+    .cross{
+      top: 70px;
+      right: 50px;
+      scale: 35%;
+    }
+
+    .logo-sm{
+      top: -90px;
+      right: -30px;
+      scale: 35%;
+    }
+
+    .line{
+      top: 190px;
+    }
+
+    .stick{
+      height: 130px;
+    }
+
+    .patt-1{
+      left: -10px;
+    }
+
+    #about{
+      height: 100vh;
+      /* border: #fff solid; */
+    }
+
+    .about-content{
+      width: 280px;
+      top: 450px;
+      left: 50px;
+      font-size: 14px;
+    }
+
+    .download-cv{
+      top: 610px;
+      font-size: 16px;
+      left: 50px;
+      width: 150px;
+    }
+
+    .skill-title{
+      font-size: 70px;
+    }
+
+    .navigation button{
+      font-size: 15px;
+      left: -10px;
+    }
+
+    .project-title{
+      font-size: 50px;
+    }
+
+    .contact-main{
+      scale: 60%;
+      left: 0px;
+    }
+
+    
+
+    .footer-content .footer-logo{
+      font-size: 18px;
+      left: 10px;
+      height: 40px;
+      display: flex;
+      justify-content: start;
+      /* border: #fff solid; */
+    }
+
+    .footer-content p{
+      top: 0px;
+      left: 0px;
+      justify-content: start;
+      /* border: white solid; */
+    }
+
+    .footer-content .footer-sm{
+      justify-content: center;
+      align-items: center;
+      height: 70px;
+      width: 500px;
+      background-color: rgba(255, 255, 255, 0.45);
+      left: -75px;
+      /* border: #fff solid; */
+    }
+
+ 
+}
 
   
 }
