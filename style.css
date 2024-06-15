@@ -3515,6 +3515,10 @@ footer {
       height: 130px;
     }
 
+    .cursor{
+      z-index: 1;
+    }
+
     .patt-1{
       left: -10px;
     }
