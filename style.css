@@ -434,7 +434,7 @@ section {
 
 .me2 img {
 
-  border: white solid 3px;
+  /* border: white solid 3px; */
   border-radius: 50%;
   scale: 150%;
 }
@@ -1163,6 +1163,14 @@ footer {
     background-color: #3498db;
   } */
 
+  html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+  }
+
   .skill-card {
     transition: all 0.5s;
   }
@@ -1187,6 +1195,75 @@ footer {
     right: 738px;
   }
 
+  #home{
+    /* border: yellow solid; */
+  }
+
+  .me{
+    scale: 140%;
+    bottom: 6rem;
+  }
+  .globe{
+    scale: 100%;
+    top: 8rem;
+  
+  }
+
+  .tagline{
+    top: 6rem;
+  }
+
+  .name{
+    top: 8rem;
+  }
+
+  .descrip{
+    top: 30rem;
+  }
+
+  .cursor{
+    top: 34rem;
+  }
+
+  .line{
+    top: 27rem;
+  }
+
+  #about{
+    /* border: yellow solid; */
+    height: 120vh;
+  
+  }
+
+  #skills{
+    /* border: yellow solid; */
+    height: 120vh;
+  
+  }
+
+  #projects{
+    /* border: yellow solid; */
+    height: 120vh;
+  
+  }
+
+  .proj{
+    top: 15rem;
+    /* border: yellow solid; */
+  }
+
+}
+
+@media screen and (max-width: 1850px){
+  .me{
+    scale: 135%;
+    bottom: 5rem;
+  }
+
+  .proj .proj-card{
+    top: 1rem;
+    /* border: yellow solid; */
+  }
 }
 
 @media (max-width: 1800px) {
@@ -1194,6 +1271,10 @@ footer {
   /* #about {
     background-color: rgb(19, 29, 29);
   } */
+
+  .name {
+    font-size: 120px;
+  }
 
   .descrip {
     font-size: 40px;
@@ -1214,7 +1295,7 @@ footer {
   }
 
   .line {
-    top: 520px;
+    top: 450px;
   }
 
   .about-title {
@@ -1628,6 +1709,59 @@ footer {
     height: 520px;
   }
 
+}
+
+@media (max-width: 1440px){
+  .me{
+    scale: 130%;
+    bottom: 4rem;
+    right: 200px;
+  
+  }
+
+  .globe{
+    scale: 100%;
+    top: 8rem;
+    right: 190px;
+  
+  
+
+  }
+
+  .cross{
+    scale: 100%;
+    top: 5rem;
+    right: 675px;
+  
+  }
+
+  .descrip{
+    top: 23rem;
+    font-size: 35px;
+    width: 400px;
+  }
+
+  .cursor{
+    font-size: 40px;
+    top: 26rem;
+  }
+
+  .line{
+    top: 21.5rem;
+    left: 195px;
+  }
+
+  .logo-sm{
+    top: 1rem;
+    right: 5px;
+    scale: 75%;
+  
+  }
+
+  #webdev{
+    top: 5rem;
+    /* border: yellow solid; */
+  }
 }
 
 @media (max-width: 1400px) {
@@ -2073,10 +2207,69 @@ footer {
   }
 }
 
-@media (max-width:1000px) {
+@media (max-width:1024px) {
   /* #about {
     background-color: #98de5b;
   } */
+
+  #skills {
+    height: 110vh;
+  }
+
+  #design{
+    top: 5rem;
+    /* border: yellow solid; */
+  }
+
+  #projects{
+    height: 110vh;
+  }
+
+  .proj{
+    top: 11rem;
+  }
+
+  .proj .proj-card .proj-content {
+    font-size: 17px;
+  }
+
+  .me{
+    scale: 100%;
+    bottom: 0rem;
+    right: 100px;
+  }
+
+  .me-round{
+    scale: 80%;
+    bottom: -50px;
+    right: 1.5rem;
+  }
+
+  .strap-1{
+    scale: 80%;
+    bottom: -20px;
+    right: 3.5rem;
+    rotate: 0deg;
+  }
+
+  .strap-2{
+    scale: 80%;
+    bottom: -50px;
+    right: 31.5rem;
+    rotate: 0deg;
+  }
+
+  .globe{
+    scale: 80%;
+    top: 10rem;
+    right: 120px;
+  }
+
+  .cross{
+    scale: 80%;
+    top: 7rem;
+    right: 31rem;
+  }
 
   .me2 img {
     scale: 100%;
@@ -2095,12 +2288,12 @@ footer {
 
   .line {
     left: 105px;
-    top: 380px;
+    top: 18rem;
   }
 
   .descrip {
     left: 130px;
-    top: 410px;
+    top: 20rem;
     font-size: 27px;
     width: 400px;
   }
@@ -2112,7 +2305,12 @@ footer {
   .cursor {
     font-size: 35px;
     left: 130px;
-    top: 450px;
+    top: 23rem;
+  }
+
+  .patt-1{
+    scale: 80%;
+    top: 8rem;
   }
 
   #skills {
@@ -2260,10 +2458,9 @@ footer {
     top: 180px;
   }
 
-  #skills {
-    /* background-color: #e0af10; */
-    height: 110vh;
-  }
+ 
+
+  
 
   .card {
     display: inline;
@@ -2397,6 +2594,7 @@ footer {
   .card .center-align {
     left: 22%;
   }
+
 
   #projects {
     height: 130vh;
@@ -2561,6 +2759,99 @@ footer {
 
 
   }
+}
+
+@media (max-width: 768px){
+  .me{
+    scale: 80%;
+    bottom: -3.1rem;
+  }
+
+  
+
+  .me-round{
+    scale: 60%;
+    bottom: -94px;
+    right: -4rem;
+  }
+
+  .strap-1{
+    scale: 60%;
+    bottom: -60px;
+    right: 1.5rem;
+    rotate: -3deg;
+  }
+
+  .strap-2{
+    scale: 60%;
+    bottom: -80px;
+    right: 22.5rem;
+    rotate: 3deg;
+  }
+
+  .globe{
+    scale: 70%;
+    top: 9rem;
+    right: 80px;
+  }
+
+  .cross{
+    scale: 60%;
+    top: 6rem;
+    right: 23rem;
+  }
+
+  .name{
+    left: 4rem;
+  }
+
+  .tagline{
+    left: 4rem;
+  }
+
+  .line{
+    left: 3rem;
+    top: 15rem;
+  }
+
+  .cursor{
+    left: 4.5rem;
+    top: 19rem;
+  }
+
+  .descrip{
+    left: 4.5rem;
+    top: 17rem;
+    width: 400px;
+  }
+
+  .patt-1{
+    scale: 60%;
+    top: 6rem;
+    left: -.5rem;
+  }
+
+  .logo-sm{
+    top: 0rem;
+    right: -10px;
+    scale: 50%;
+  }
+
+  #skills{
+    height: 230vh;
+  }
+
+  #projects{
+    height: 160vh;
+  }
+
+  .footer-content .footer-logo{
+    font-size: 20px;
+    left: -15px;
+  }
+  
+
+
 }
 
 @media (max-width: 750px) {
@@ -3386,6 +3677,139 @@ footer {
   }
 }
 
+@media only screen and (max-width: 425px){
+  .me{
+    bottom: -115px;
+    right: -120px;
+    scale: 55%;
+  }
+
+  .me-round{
+    bottom: -145px;
+    right: -200px;
+    scale: 40%;
+  }
+
+  .strap-1{
+    bottom: -120px;
+    right: -60px;
+    rotate: 5deg;
+    scale: 40%;
+  }
+
+  .strap-2{
+    bottom: -135px;
+    right: 170px;
+    rotate: 1deg;
+    scale: 40%;
+  }
+  
+  .globe{
+    top: 120px;
+    right: 0px;
+    scale: 40%;
+  }
+
+  .cross{
+    top: 70px;
+    right: 50px;
+    scale: 40%;
+  }
+
+  .logo-sm{
+    top: -90px;
+    right: -35px;
+    scale: 30%;
+  }
+
+  .cursor{
+    font-size: 20px;
+    top: 220px ;
+  }
+
+  #auto-type{
+    font-size: 20px;
+  }
+
+  .line{
+    top: 170px;
+  }
+
+  .stick{
+    height: 120px;
+  }
+
+  .descrip{
+    top: 190px;
+    font-size: 20px;
+    width: 300px;
+  }
+
+  .patt-1{
+    scale: 50%;
+    top: 30px;
+  }
+
+  #about{
+    height: 100vh;
+  }
+
+  #skills{
+    height: 320vh;
+  
+  }
+
+  #projects{
+    height: 240vh;
+  }
+
+  .proj{
+    height: 215vh;
+  }
+
+  #contact{
+    height: 85vh;
+    /* border: white solid; */
+  }
+
+  footer{
+    /* border: white solid; */
+    height: 10vh;
+  }
+
+  .footer-content{
+    display: inline;
+  }
+
+  .footer-content .footer-logo{
+    top: -15px;
+    font-size: 15px;
+    left: 10px;
+    height: 40px;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    /* border: #fff solid; */
+  }
+
+  .footer-content p{
+    top: -10px;
+    left: 0px;
+    justify-content: start;
+    /* border: white solid; */
+  }
+
+  .footer-content .footer-sm{
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 614px;
+    background-color: rgba(255, 255, 255, 0.45);
+    left: -100px;
+    /* border: #fff solid; */
+  }
+}
+
 
 @media only screen and (max-width:400px){
   #home{
@@ -3451,6 +3875,54 @@ footer {
     left: -85px;
     /* border: #fff solid; */
   }
+
+@media only screen and (max-width:375px){
+  #home{
+    height: 50vh;
+  
+}
+
+  .about-content{
+    width: 300px;
+    top: 450px;
+    left: 50px;
+    font-size: 14px;
+  }
+
+  .download-cv{
+    top: 600px;
+    font-size: 15px;
+    left: 50px;
+    width: 120px;
+  }
+
+  .skill-title{
+    font-size: 70px;
+  }
+
+  #projects{
+    height: 250vh;
+    /* border: #fff solid; */
+  }
+
+  .project-title{
+    font-size: 50px;
+  }
+
+  .contact-main{
+    scale: 65%;
+    left: 0px;
+  }
+
+  .footer-content .footer-logo{
+    font-size: 18px;
+    left: 10px;
+    height: 40px;
+    display: flex;
+    justify-content: start;
+    /* border: #fff solid; */
+  }
+}
 
 @media only screen and (max-width:350px){
   #home{
@@ -3719,5 +4191,4 @@ footer {
 
   
 }
-
 
