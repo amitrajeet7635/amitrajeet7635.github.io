@@ -3273,7 +3273,7 @@ footer {
   }
 
   #projects {
-    height: 230vh;
+    height: 300vh;
   }
 
   .proj {
@@ -3314,6 +3314,7 @@ footer {
 
   .contact-main {
     scale: 95%;
+    left: 0;
 
   }
 
@@ -3399,9 +3400,8 @@ footer {
 }
 
 @media (max-width:500px) {
-  /* #about {
-    background-color: #b34343;
-  } */
+  #about {height: 100vh;
+  }
 
   .about-title {
 
@@ -3432,8 +3432,10 @@ footer {
 
   #skills {
     /* background-color: #deb75b; */
-    height: 290vh;
+    height: 390vh;
   }
+
+  
 
   .skill-title {
     font-size: 90px;
@@ -3498,6 +3500,9 @@ footer {
 
   .contact-main {
     scale: 85%;
+    width: fit-content;
+    /* border: #fff solid; */
+    left: 0rem;
   }
 
   .footer-content .footer-sm {
@@ -3706,7 +3711,9 @@ footer {
 
   .contact-main{
     scale: 70%;
-    left: 0px;
+    left: -2rem;
+    /* border: #fff solid ; */
+    margin: auto;
   }
 }
 
@@ -3805,6 +3812,10 @@ footer {
     /* border: white solid; */
   }
 
+  .contact-main{
+    margin: auto;
+  }
+
   footer{
     /* border: white solid; */
     height: 10vh;
@@ -3873,8 +3884,7 @@ footer {
   }
 
   .contact-main{
-   top: -50px;
-    left: 0px;
+    left: -3rem;
   }
 
 
@@ -3944,7 +3954,7 @@ footer {
 
   .contact-main{
     scale: 65%;
-    left: 0px;
+    left: -4rem;
   }
 
   .footer-content .footer-logo{
@@ -4069,8 +4079,9 @@ footer {
     }
 
     .contact-main{
-      scale: 60%;
-      left: 0px;
+      scale: 55%;
+      right: 5rem;
+      /* border: #fff solid; */
     }
 
     
@@ -4192,7 +4203,7 @@ footer {
 
   .contact-main{
     scale: 65%;
-    left: 0px;
+    left: -4.5rem;
   }
 
   .footer-content .footer-logo{
